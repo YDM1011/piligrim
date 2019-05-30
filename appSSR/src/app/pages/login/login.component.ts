@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {AuthService} from "../../auth.service";
-import {BehaviorSubject} from "rxjs";
-import {Router} from "@angular/router";
+import {AuthService} from '../../auth.service';
+import {BehaviorSubject} from 'rxjs';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -29,6 +29,6 @@ export class LoginComponent implements OnInit {
         this.router.navigate(['/admin']);
       }
     });
-    console.log("errr")
+    console.log('errr')
   }
 }

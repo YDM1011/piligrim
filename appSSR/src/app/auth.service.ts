@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import {environment} from "../environments/environment";
-import {HttpClient} from "@angular/common/http";
-import {CookieService} from "ngx-cookie-service";
-import {BehaviorSubject} from "rxjs";
+import {environment} from '../environments/environment';
+import {HttpClient} from '@angular/common/http';
+import {CookieService} from 'ngx-cookie-service';
+import {BehaviorSubject} from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -22,20 +22,20 @@ export class AuthService {
   }
 
   signin(data) {
-    return new Promise((rs,rj)=>{
-      this.http.post(`${this.domain}signin`,data).subscribe((v:any)=>{
+    return new Promise((rs, rj) => {
+      this.http.post(`${this.domain}signin`, data).subscribe((v: any) => {
         if (v) {
           this.user.next(v);
-          rs(v)
+          rs(v);
         }
-      }, e=>rj(e))
-    })
+      }, e => rj(e));
+    });
   }
   isAuth() {
     if (this.user) {
-      return true
+      return true;
     } else {
-      return false
+      return false;
     }
   }
 }

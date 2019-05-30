@@ -13,17 +13,18 @@ import { ContactsComponent } from './section/contacts/contacts.component';
 import { AllNewsComponent } from './pages/all-news/all-news.component';
 import { DetailNewsComponent } from './pages/detail-news/detail-news.component';
 import { OtherNewsComponent } from './section/other-news/other-news.component';
-import { UploadModule } from "./commponents/upload/upload.module";
+// import { UploadModule } from './commponents/upload/upload.module';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
-import { HTTP_INTERCEPTORS } from "@angular/common/http";
-import { Inerceptor} from "./inerceptor.service";
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { Inerceptor} from './inerceptor.service';
 import { AdminComponent } from './pages/admin/admin.component';
 import { LoginComponent } from './pages/login/login.component';
-import {MatButtonModule, MatInputModule, MatSliderModule} from "@angular/material";
-import {FormsModule} from "@angular/forms";
-import {CookieService} from "ngx-cookie-service";
-import {ApiService} from "./api.service";
+import {MatButtonModule, MatInputModule, MatSliderModule} from '@angular/material';
+import {FormsModule} from '@angular/forms';
+import {CookieService} from 'ngx-cookie-service';
+import {ApiService} from './api.service';
+import {NewsComponent} from "./section/news/news.component";
 
 @NgModule({
   declarations: [
@@ -42,11 +43,12 @@ import {ApiService} from "./api.service";
     NotFoundComponent,
     AdminComponent,
     LoginComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    UploadModule,
+    // UploadModule,
     MatSliderModule,
     MatInputModule,
     MatButtonModule,

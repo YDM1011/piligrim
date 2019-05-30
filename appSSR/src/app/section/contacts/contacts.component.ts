@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {UploadService} from "../../commponents/upload/upload.service";
+// import {UploadService} from "../../commponents/upload/upload.service";
 
 @Component({
   selector: 'app-contacts',
@@ -18,13 +18,15 @@ export class ContactsComponent implements OnInit {
     files: [],
   };
 
-  constructor( private uupload: UploadService ) { }
+  constructor( ) { }
+  // constructor( private uupload: UploadService ) { }
+
 
   ngOnInit() {
-    this.contact = Object.assign({},this.contactModel);
+    this.contact = Object.assign({}, this.contactModel);
     this.contact.files = [];
   }
-  onFs(v){
+  onFs(v) {
     console.log(v);
   }
 
