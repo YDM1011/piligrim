@@ -1,0 +1,12 @@
+<div class="wrap-container">
+  <form (submit)="signin($event)" class="form">
+    <mat-form-field>
+      <input matInput type="text" placeholder="Login" name="login" [(ngModel)]="authUser.login">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="password" placeholder="Password" name="pass" [(ngModel)]="authUser.pass">
+    </mat-form-field>
+    <button type="submit" mat-raised-button color="primary">Signin</button>
+  </form>
+</div>
+<!--<input type="text">-->
