@@ -20,7 +20,7 @@ module.exports = {
 
   },
   site: {
-    sidDomain: "localhost",
+    sidDomain: "*",
     domain: "http://localhost:3000",
     innerDomain: "http://localhost:3000",
     baseUrl: "http://localhost:4200",
