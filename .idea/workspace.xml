@@ -1,289 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf6ad823-ef08-487e-abe2-7999d3382d1f" name="Default Changelist" comment="" />
-    <list id="d03aa72b-44b7-46ed-abd2-16725a1969d5" name="Revert &quot;site&quot;" comment="Revert &quot;site&quot;&#10;&#10;This reverts commit 08d85a3c">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/env/development.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/env/production.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/env/raw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/env/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/express.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/mongooseRestApi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/application/application.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/auth/initAdmin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/auth/signin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/api/auth/signup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/User/_language.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/User/_picture.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/User/_position.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/User/_role.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/User/_salutation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/User/_status.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/view/User/_language.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/view/User/_position.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/view/User/_role.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/view/User/_salutation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/partials/view/User/_status.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/address.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/checkbox.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/contactWishes/checkbox.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/contactWishes/dropdown.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/contactWishes/link.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/contactWishes/price.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/contactWishes/viewCheckbox.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/contactWishes/viewDropdown.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/contactWishes/viewLink.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/contactWishes/viewPrice.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/datefield.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/daterange.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/dropdown.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/editor.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/email.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/image.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/link.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/list/list.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/multiattachment.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/multiselect.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/number.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/phrase.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/price.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/radio.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/checkbox.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/container.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/datefield.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/dropdown.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/link.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/number.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/price.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/textarea.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/search/touchspin.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/section.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/tags.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/textarea.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/touchspin.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/view/editor.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/view/image.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/view/multiattachment.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/view/phrase.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-renderer/renderers/views/view/price.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/custom-fields-validator/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/buildQuery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/buildQuery.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/errorHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/errorHandler.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/express-restify-mongoose.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/express-restify-mongoose.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/access.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/ensureContentType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/ensureContentType.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/filterAndFindById.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/filterAndFindById.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/mongoose-i18n-errors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/onError.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/onError.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/outputFn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/outputFn.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/prepareOutput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/prepareOutput.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/prepareQuery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/prepareQuery.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/middleware/processFields.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/operations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/operations.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/resource_filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/lib/resource_filter.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/express-restify-mongoose/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/currentUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/isLoggedIn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/licenseLimits.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/limitLocalStorage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/middlewares/mailingApp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/Applications.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/model_methods/object/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/model/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/responces/badRequest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/responces/forbidden.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/responces/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/responces/notFound.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/responces/ok.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/responces/serverError.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/controll/mail.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/browserslist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/main-es2015.f277e9fb874242c73566.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/main-es5.92eb2a8b14afb6ceded3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/polyfills-es2015.e954256595c973372414.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/polyfills-es5.405730e5ac8f727bd7d7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/runtime-es2015.858f8dd898b75fe86926.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/runtime-es5.741402d1d47331ce975c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/dist/appSSR/styles.09e2c710755c8867a460.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/e2e/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/e2e/src/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/e2e/src/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/e2e/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/api.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/app-routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/auth.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/footer/footer.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/header/header.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/header/header.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/header/header.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/post/post.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/post/post.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/post/post.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/commponents/post/post.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/inerceptor.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/is-login.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/is-logout.guard.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/admin/admin.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/admin/admin.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/admin/admin.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/all-news/all-news.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/all-news/all-news.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/all-news/all-news.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/all-news/all-news.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/detail-news/detail-news.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/detail-news/detail-news.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/detail-news/detail-news.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/home/home.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/home/home.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/home/home.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/login/login.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/login/login.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/login/login.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/not-found/not-found.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/not-found/not-found.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/not-found/not-found.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/pages/not-found/not-found.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/about-as/about-as.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/about-as/about-as.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/about-as/about-as.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/contacts/contacts.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/contacts/contacts.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/contacts/contacts.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/how-we-work/how-we-work.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/how-we-work/how-we-work.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/how-we-work/how-we-work.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/news/news.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/news/news.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/news/news.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/other-news/other-news.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/other-news/other-news.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/other-news/other-news.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/technolodgies/technolodgies.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/technolodgies/technolodgies.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/app/section/technolodgies/technolodgies.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/environments/environment.prod.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appSSR/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap-dropdown.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap-select.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/main-fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/demo/site-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/icon/arrow-down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/icon/marker-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/icon/marker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_100x100.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_1920x1200.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_1920x1280.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_400x350.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_450x650.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_600x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_700x600.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_80x80.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_900x500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/placeholder/placeholder_920x90.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/bootstrap-dropdown.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/bootstrap-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/bootstrap-select.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/rtl.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/slick/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/slick/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/slick/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/slick/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/slick/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/slick/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/slick/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/emailTemplate/confirm-signup.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/signin.ejs" beforeDir="false" />
+    <list default="true" id="7bf554e6-9a37-43c8-87b1-a8f75147eaba" name="Revert &quot;Initial commit&quot;" comment="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 22ef3a52">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
+    <list id="bf6ad823-ef08-487e-abe2-7999d3382d1f" name="Default Changelist" comment="" />
+    <list id="c429a2e4-cad7-43cb-a5fa-7a40f00f454c" name="Revert &quot;site&quot;" comment="Revert &quot;site&quot;&#10;&#10;This reverts commit 08d85a3c" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appSSR/src/app/section/about-as/about-as.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -306,13 +38,13 @@
         <option value="$PROJECT_DIR$/appSSR/src/app/section/contacts/contacts.component.html" />
         <option value="$PROJECT_DIR$/appSSR/src/app/pages/home/home.component.html" />
         <option value="$PROJECT_DIR$/appSSR/src/app/commponents/header/header.component.html" />
-        <option value="$PROJECT_DIR$/appSSR/src/app/section/about-as/about-as.component.html" />
         <option value="$PROJECT_DIR$/appSSR/src/app/section/contacts/contacts.component.ts" />
         <option value="$PROJECT_DIR$/appSSR/src/app/section/news/news.component.html" />
         <option value="$PROJECT_DIR$/appSSR/src/app/section/other-news/other-news.component.html" />
         <option value="$PROJECT_DIR$/appSSR/src/app/section/technolodgies/technolodgies.component.html" />
         <option value="$PROJECT_DIR$/appSSR/src/styles.scss" />
         <option value="$PROJECT_DIR$/appSSR/src/app/commponents/footer/footer.component.html" />
+        <option value="$PROJECT_DIR$/appSSR/src/app/section/about-as/about-as.component.html" />
       </list>
     </option>
   </component>
@@ -332,11 +64,6 @@
               <item name="piligrim" type="b2602c69:ProjectViewProjectNode" />
               <item name="piligrim" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="piligrim" type="b2602c69:ProjectViewProjectNode" />
-              <item name="piligrim" type="462c0819:PsiDirectoryNode" />
-              <item name="appSSR" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -345,6 +72,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/appSSR/src/assets" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -382,25 +110,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559241999983</updated>
-      <workItem from="1559242001454" duration="5015000" />
+      <workItem from="1559242001454" duration="5466000" />
     </task>
+    <task id="LOCAL-00001" summary="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 22ef3a52">
+      <created>1559303328026</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559303328027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5015000" />
+    <option name="totallyTimeSpent" value="5466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21745351" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.43373495" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Terminal" weight="0.34457833" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -453,6 +190,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 22ef3a52" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 22ef3a52" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/index.js">
@@ -607,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appSSR/src/app/section/about-as/about-as.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appSSR/src/app/section/technolodgies/technolodgies.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1018">
@@ -682,6 +416,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appSSR/src/app/section/about-as/about-as.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
