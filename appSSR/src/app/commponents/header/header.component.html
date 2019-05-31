@@ -1,3 +1,22 @@
+<nav class="main-nav" id="main-nav" [class.is-open]="open">
+  <ul>
+    <li>
+      <a href="#about" (click)="onClick()">About us</a>
+    </li>
+    <li>
+      <a href="#howwework" (click)="onClick()">How We work</a>
+    </li>
+    <li>
+      <a href="#technologies" (click)="onClick()">Our Technologies</a>
+    </li>
+    <li>
+      <a [routerLink]="'/news'" (click)="onClick()">News</a>
+    </li>
+    <li>
+      <a href="#contacts" (click)="onClick()">Contacts</a>
+    </li>
+  </ul>
+</nav>
 <header class="header">
   <div class="container">
     <div class="header__box">
@@ -11,7 +30,10 @@
         <a [routerLink]="'/news'">news</a>
         <a href="#contacts">contacts</a>
       </nav>
-      <div class="burger"></div>
+      <div class="open-main-nav" id="burger" [class.is-open]="open" (click)="onClick()">
+        <div class="burger"></div>
+      </div>
+
     </div>
   </div>
 </header>
