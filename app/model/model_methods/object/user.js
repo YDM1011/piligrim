@@ -8,7 +8,7 @@ module.exports = function (schema) {
               path:"/",
               httpOnly: true
           });
-      res.cookie('useriId', String(this._id),
+      res.cookie('userId', String(this._id),
           {
               domain: backendApp.config.site.sidDomain,
               path:"/",

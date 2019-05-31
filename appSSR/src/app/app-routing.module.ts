@@ -8,13 +8,17 @@ import {AdminComponent} from "./pages/admin/admin.component";
 import {LoginComponent} from "./pages/login/login.component";
 import {IsLoginGuard} from "./is-login.guard";
 import {IsLogoutGuard} from "./is-logout.guard";
+import {OrderDetailComponent} from "./pages/order-detail/order-detail.component";
 
 const routes: Routes = [
   { path: '', component:HomeComponent},
   { path: 'news', component: AllNewsComponent, children:[
     {path: ':id', component: DetailNewsComponent}
     ]},
-  { path: 'admin', component: AdminComponent, canActivate: [IsLoginGuard] },
+  { path: 'admin', component: AdminComponent, canActivate: [IsLoginGuard], children:[
+      { path: ':id', component: OrderDetailComponent },
+    ]
+  },
   { path: 'login', component: LoginComponent, canActivate: [IsLogoutGuard] },
   { path: '**', component: NotFoundComponent }
 ];

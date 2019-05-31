@@ -24,10 +24,19 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/images",
+              "src/assets/fonts"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/assets/scss/_variable.scss",
+              "src/assets/scss/_animation.scss",
+              "src/assets/scss/_fonts.scss",
+              "src/assets/scss/_main-style.scss",
+              "src/assets/scss/styles.scss",
+              "src/assets/css/normalize.css",
+              "src/assets/css/styles.css",
               "src/styles.scss"
             ],
             "scripts": []

@@ -16,7 +16,6 @@ const flash = require('connect-flash');
 const init = (app, config) =>{
     var cons = require('consolidate');
 
-
     app.set('views', path.join(__dirname, '../../appSSR/dist/appSSR'));
     app.engine('html', cons.swig);
     app.set('view engine', 'html');
@@ -30,7 +29,7 @@ const init = (app, config) =>{
 
     // app.use(express.static(config.root + 'public'));
     app.use('/', express.static(path.join(__dirname, '../../appSSR/dist/appSSR')));
-    app.use('/upload', express.static(config.root + 'upload'));
+    app.use('/upload', express.static(path.join(__dirname, '../../upload')));
     app.use(methodOverride());
     app.use(function (req, res, next) {
         if (req.query.accessToken) {

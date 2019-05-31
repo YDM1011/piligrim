@@ -32,7 +32,7 @@ export class AuthService {
     })
   }
   isAuth() {
-    if (this.user) {
+    if (this.cookieService.get('userId')) {
       return true
     } else {
       return false

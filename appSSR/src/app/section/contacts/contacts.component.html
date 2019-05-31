@@ -1,22 +1,33 @@
-<div class="wrap-container">
-  <form (submit)="signin($event)" class="form">
-    <mat-form-field>
-      <input matInput placeholder="Login" name="name" [(ngModel)]="contact.name">
-    </mat-form-field>
-    <mat-form-field>
-      <input matInput placeholder="Email" name="email" [(ngModel)]="contact.email">
-    </mat-form-field>
-    <mat-form-field>
-      <input matInput placeholder="Mobile" name="mobile" [(ngModel)]="contact.mobile">
-    </mat-form-field>
-    <mat-form-field>
-      <input matInput placeholder="Messanger" name="massenger" [(ngModel)]="contact.massenger">
-    </mat-form-field>
-    <mat-form-field>
-      <input matInput placeholder="Message" name="masseg" [(ngModel)]="contact.masseg">
-    </mat-form-field>
-    <app-upload (onFs)="onFs($event)"></app-upload>
-    <button type="submit" mat-raised-button color="primary">Send</button>
-  </form>
-</div>
-<!--<input type="text">-->
+<section class="contacts" id="contacts">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <div class="contacts__box">
+      <form (submit)="send($event)">
+
+        <div class="form__section">
+          <mat-form-field>
+            <input matInput placeholder="Name" name="name" [(ngModel)]="contact.name">
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Email" name="email" [(ngModel)]="contact.email">
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Phone number" name="mobile" [(ngModel)]="contact.mobile">
+          </mat-form-field>
+        </div>
+        <div class="form__section">
+          <mat-form-field>
+            <input matInput placeholder="Skype / WhatsUp / Telegram" name="massenger" [(ngModel)]="contact.massenger">
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput placeholder="Message" name="masseg" [(ngModel)]="contact.masseg">
+          </mat-form-field>
+          <app-upload></app-upload>
+        </div>
+        <div class="send">
+          <input type="submit" value="Send" class="send-element">
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

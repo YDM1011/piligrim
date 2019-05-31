@@ -1,2 +1,17 @@
-<a [routerLink]="''">Home</a>
-<a [routerLink]="'/news'">News</a>
+<header class="header">
+  <div class="container">
+    <div class="header__box">
+      <a [routerLink]="''" class="header__box-logo">
+        <img src="assets/images/logo.svg" alt="">
+      </a>
+      <nav class="header__box-nav">
+        <a href="#about">about us</a>
+        <a href="#howwework">how we work</a>
+        <a href="#technologies">our technologies</a>
+        <a [routerLink]="'/news'">news</a>
+        <a href="#contacts">contacts</a>
+      </nav>
+      <div class="burger"></div>
+    </div>
+  </div>
+</header>

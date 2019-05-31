@@ -1,0 +1,11 @@
+<div class="modal-wrap">
+  <div class="modal-content">
+    <div class="action">
+      <button mat-button (click)="close()">Cancel</button>
+    </div>
+    <div class="content-wrap">
+      {{order | json}}
+    </div>
+  </div>
+  <div class="glasses" (click)="close()"></div>
+</div>
