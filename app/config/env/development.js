@@ -20,7 +20,7 @@ module.exports = {
 
   },
   site: {
-    sidDomain: "piligrim-test.top:8080",
+    sidDomain: "piligrim-test.top",
     domain: "http://localhost:3000",
     innerDomain: "http://localhost:3000",
     baseUrl: "http://localhost:4200",
