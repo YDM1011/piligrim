@@ -976,7 +976,10 @@ h2 {
 
 /* Toggle State part */
 .is-open .burger {
-  background: #fff; }
+  background: #fff;
+  position: fixed;
+  right: 30px;
+}
 
 .is-open .burger:after {
   background: #fff; }
