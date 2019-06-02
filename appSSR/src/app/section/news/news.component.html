@@ -13,7 +13,7 @@
         <div class="description">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
         </div>
-        <span class="read">read more</span>
+        <a class="read" [routerLink]="'/news/'+ 0" >read more</a>
       </div>
       <div class="elements">
         <img src="assets/images/news2.svg" alt="">
@@ -26,7 +26,7 @@
         <div class="description">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
         </div>
-        <span class="read">read more</span>
+        <a [routerLink]="'/news/'+ 1" class="read">read more</a>
       </div>
       <div class="elements">
         <img src="assets/images/news3.svg" alt="">
@@ -39,7 +39,7 @@
         <div class="description">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
         </div>
-        <span class="read">read more</span>
+        <a [routerLink]="'/news/'+ 2" class="read">read more</a>
       </div>
     </div>
   </div>
