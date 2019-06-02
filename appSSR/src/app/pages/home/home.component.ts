@@ -1,6 +1,4 @@
-import {Component, ElementRef, OnInit, QueryList, ViewChild, ViewChildren} from '@angular/core';
-import { TweenMax, TimelineMax } from 'gsap';
-declare var TweenMax: any;
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-home',
