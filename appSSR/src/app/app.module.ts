@@ -38,6 +38,8 @@ import {DialogComponent} from './commponents/upload/dialog/dialog.component';
 import {UploadService} from './commponents/upload/upload.service';
 import {NewsComponent} from './section/news/news.component';
 import { OrderDetailComponent } from './pages/order-detail/order-detail.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { PortfolioDetailComponent } from './pages/portfolio-detail/portfolio-detail.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +59,7 @@ import { OrderDetailComponent } from './pages/order-detail/order-detail.componen
     NotFoundComponent,
     AdminComponent,
     LoginComponent,
-    UploadComponent, DialogComponent, OrderDetailComponent
+    UploadComponent, DialogComponent, OrderDetailComponent, PortfolioComponent, PortfolioDetailComponent
   ],
   imports: [
     BrowserModule,

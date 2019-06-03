@@ -9,11 +9,15 @@ import {LoginComponent} from './pages/login/login.component';
 import {IsLoginGuard} from './is-login.guard';
 import {IsLogoutGuard} from './is-logout.guard';
 import {OrderDetailComponent} from './pages/order-detail/order-detail.component';
+import {PortfolioComponent} from './pages/portfolio/portfolio.component';
+import {PortfolioDetailComponent} from "./pages/portfolio-detail/portfolio-detail.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'news', component: AllNewsComponent},
   { path: 'news/:id', component: DetailNewsComponent},
+  { path: 'portfolio', component: PortfolioComponent},
+  { path: 'portfolio/:id', component: PortfolioDetailComponent},
   { path: 'admin', component: AdminComponent, canActivate: [IsLoginGuard], children:[
       { path: ':id', component: OrderDetailComponent },
     ]
